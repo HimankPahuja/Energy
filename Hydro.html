@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Electrical Energy</title>
+    <style>
+        body{
+            background-color: lightcoral;
+            font-size: 29px;
+        }
+          .abc{
+        display: inline;/*It helps to make all items in one line*/
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 30px;
+      }
+      .pqr:hover{
+          color: pink;
+          font-size: 30px;
+      }
+      #div1{
+        background-image: url("https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_1316/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1614773597%2Fkhyret5wseiou6oaagv9.jpg");
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        animation-name: woman;
+        animation-duration: 10s;/*It is used to specify the time duration of animation*/
+        animation-iteration-count: infinite;/*It is used to speicify how many times you want the animation to run*/
+        animation-direction: alternate;/*It is used to specify the flow of animation*/
+      }
+      #container{
+          height: 1200px;
+          width:100%;
+          display: grid;/*It is used to put divisions of container in Grid*/
+          grid-template-columns: auto auto auto;/*It is used to specify in how many columns we want to arrange divisions*/
+          grid-column-gap: 50px;/*It is used to give gaps between the columns*/
+          grid-row-gap: 50px;/*It is used to give gaps between rows*/
+      }
+      @keyframes woman{
+        0%{background-image: url("https://www.ireda.in/images/hydro/hydro-img-4.jpg");background-size: cover;}
+          50%{background-image: url("https://www.anl.gov/sites/www/files/styles/article_teaser_16x9/public/2020-02/Hydropower-Feature-image1600x900.jpg?h=8abcec71&itok=gvK6V9D9");background-size: cover;}
+          100%{background-image: url("https://media.mehrnews.com/d/2020/01/22/4/3357921.jpg");background-size: cover;}
+      }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul style="list-style-type: none;background-color:white;">
+              <li class="abc">
+              </li>
+              <li class="abc">
+                <a class="pqr" href="Energy.html">Home</a>
+              <li class="abc">
+                <a class="pqr" href="Electrical.html">ElectricalEnergy</a>
+              </li>
+                <li class="abc">
+                    <a class="pqr" href="Mechanical.html">MechanicalEnergy</a>
+                  </li>
+                  <li class="abc">
+                    <a class="pqr" href="solar.html">SolarEnergy</a>
+                  </li>
+                  <li class="abc">
+                    <a class="pqr" href="Chemical.html">ChemicalEnergy</a>
+                  </li>
+                </li>
+              </li>
+          </ul> 
+    </nav>
+    <div id="div1">
+        <h1 style="color: lightcoral;font-size: 70px;padding-top: 300px;padding-left: 50px;">Hydro Energy </h1>
+    </div>
+<div id="">
+       <p>Water can be a powerful force in nature. Its power can be seen in floods that uproot trees or heard in the roar of a waterfall. That power, called waterpower or hydropower, can be used as an alternative energy source. Unlike fossil fuels, it cannot be used up. When waterpower is harnessed, it can be used to create electricity, or hydroelectricity.</p>
+       <p>Hydroelectric power plants are usually located in dams that are built across rivers. In a dam water is collected at a higher elevation and is then led downward through large pipes to a lower elevation. The falling water causes wheels called water turbines to rotate. The rotating turbines run machines called generators, which produce electricity.</p> 
+       <p>Oceans can also be used to create hydroelectricity. Those waterpower sources are known as tidal power and wave power. Tidal power is created during the tide, when the water level along the oceanic coast changes. Wave power is harnessed by the up-and-down motion of waves.</p>
+       <p>Waterpower has been in use for thousands of years. The waterwheel was probably invented in the 1st century bce. Ancient Romans used it to grind grain. It was widely used throughout the Middle Ages and into modern times. Water turbines were first introduced in 1827. They were used originally for irrigation. Today, water turbines are used almost exclusively to generate electric power.</p>      
+    </div>
+</body>
+</html>
